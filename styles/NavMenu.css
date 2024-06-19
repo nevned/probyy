@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(138, 43, 226, 0.5); /* Ljubičasta boja sa 50% prozirnosti */
+  padding: 30px; /* Dodavanje paddinga sa obe strane od 30px */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px; /* Visina logo slike */
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Uklanjanje margina za bolju centriranost */
+  display: flex;
+  gap: 20px; /* Razmak između linkova */
+  /* Poravnanje elemenata na desnoj strani */
+  align-items: center; /* Vertikalno centriranje stavki */
+  /* Rastezanje menija kako bi iskoristio slobodan prostor */
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white; /* Boja teksta */
+  padding: 10px 15px; /* Razmak unutar linkova */
+  font-size: 16px; /* Veličina fonta */
+}
+
+.menu li a:hover {
+  background-color: #8a2be2; /* Tamnija ljubičasta boja za hover efekt */
+  color: white;
+  border-radius: 4px; /* Zaobljeni uglovi */
+}

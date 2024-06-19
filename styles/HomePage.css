@@ -1,0 +1,136 @@
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 20%; /* Levo padding 20% širine stranice */
+  padding-right: 20%;
+    /*background-image:  url('../slike/Pocetna.jpg'); */
+    background-size: cover;
+    background-position: center center;
+    height: 1024px;
+    width: 1850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #15052F;
+    background-color: plum;
+  }
+  
+  @media (min-width: 1024px) {
+    .home-container {
+      padding: 0 30px; /* Povećajte padding na širem ekranu */
+    }
+  }
+
+  .gallery-button {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .gallery-button:hover {
+    background-color: #0056b3;
+  }
+
+  .split-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Širina kontejnera je 80% širine stranice */
+    margin: 0 auto; /* Centriranje kontejnera */
+    background-color: plum
+  }
+  
+  .text-side {
+    flex: 1; /* Zauzima proporcionalni deo kontejnera */
+    /*padding: 20px;*/padding-left: 10%; /* Levo padding 20% širine stranice */
+    padding-right: 20%;
+    padding-top: 10%;
+    text-align: left; /* Tekst je poravnat levo unutar text-side */
+    font-size: 30px; /* Veličina fonta 70px */
+    background-color: transparent
+  }
+  
+  .image-side {
+    flex: 1; /* Zauzima proporcionalni deo kontejnera */
+    padding: 20px;
+    background-color: plum
+    
+  }
+  
+  .image-side img {
+    max-width: 100%; /* Maksimalna širina slike je 100% širine image-side */
+    height: auto; /* Automatska visina slike */
+    display: block;
+    
+    border-radius: 8px; /* Opciono: zaobljeni uglovi slike */
+  }
+
+  @media (min-width: 768px) {
+    .split-container {
+      gap: 20%; /* Razmak između text-side i image-side (20% širine stranice) */
+    }
+  }
+
+
+  .split-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Širina kontejnera je 80% širine stranice */
+    margin: 0 auto; /* Centriranje kontejnera */
+    background-color: plum
+  }
+  
+  .text-side1 {
+    flex: 1; /* Zauzima proporcionalni deo kontejnera */
+    padding: 20px;
+    text-align: left; /* Tekst je poravnat levo unutar text-side */
+    font-size: 30px; /* Veličina fonta 70px */
+    background-color: transparent
+  }
+  
+  .image-side1 {
+    flex: 1; /* Zauzima proporcionalni deo kontejnera */
+    padding-left: 10%; /* Levo padding 20% širine stranice */
+    
+    padding-top: 10%;
+    background-color: plum
+  }
+  
+  .image-side1   img {
+    max-width: 100%; /* Maksimalna širina slike je 100% širine image-side */
+    height: auto; /* Automatska visina slike */
+    display: block;
+    border-radius: 8px; /* Opciono: zaobljeni uglovi slike */
+  }
+
+  .home-container2 {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: plum
+  }
+  
+  .home-container2 button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Boja dugmeta */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 50%; /* Zaobljavanje gornjeg levog ugla */
+    border-top-right-radius: 50%; /* Zaobljavanje gornjeg desnog ugla */
+    border-bottom-left-radius: 50%; /* Zaobljavanje donjeg levog ugla */
+    border-bottom-right-radius: 50%;
+    background-color:  #15052F
+  }
+
+  .main-paragraph {
+    color: #15052F; /* Promena boje teksta */
+  }
