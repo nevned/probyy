@@ -1,0 +1,43 @@
+.image-sidee{
+    position: absolute; /* Pozicioniranje slike */
+    top: 35%; /* Pomeranje slike ka gore */
+   right: 5%;
+}
+
+
+.contact-container {
+   display: flex;
+  flex-direction: column;
+  align-items: center; /* Centriranje elemenata */
+  justify-content: center;
+  height: 100vh;
+  transform: translateX(-10%); /* Pomeranje ceo sadržaj ulevo */
+    height: 1024px;
+    width: 1850px;
+    display: flex;
+    .button{
+        left: 10%;
+    }
+    color: #15052F;
+    background-color: plum;
+    position: relative; /* Dodato za pozicioniranje slike */
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-container {
+      padding: 0 30px; /* Povećajte padding na širem ekranu */
+    }
+  }
+  .input-container {
+  margin-top: 20px;
+}
+  .input-field {
+  width: 200px; /* Postavljanje širine input polja */
+  margin: 10px; /* Razmak između input polja */
+  padding: 5px; /* Unutrašnji razmak unutar input polja */
+  font-size: 14px; /* Veličina teksta unutar input polja */
+  border-radius: 15px; /* Zaobljavanje uglova input polja */
+  
+  
+}
+
