@@ -1,24 +1,48 @@
 .footer {
-  background-color: rgba(138, 43, 226, 0.5);;
-  color: white;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 20px;
+  background-color: rgb(225, 175, 240);
+  border-top: 1px solid #e4a9e0;
 }
 
-.left-section {
+.footer-left,
+.footer-center,
+.footer-right {
   flex: 1;
 }
 
-.center-section {
-  flex: 1;
+.footer-center {
   text-align: center;
 }
 
-.right-section {
-  flex: 1;
+.footer-right {
   text-align: right;
+}
+
+.footer-right p {
+  margin-top: 10px;
+  color: green;
+}
+
+/* Dodajemo stilove za modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: rgb(107, 232, 165);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .social-icons img {
