@@ -1,8 +1,14 @@
 .footer {
+
+
+  background-color: rgba(138, 43, 226, 0.5);;
+  
+  padding: 40px;
+
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  background-color: rgb(225, 175, 240);
+  
+  
   border-top: 1px solid #e4a9e0;
 }
 
@@ -12,18 +18,6 @@
   flex: 1;
 }
 
-.footer-center {
-  text-align: center;
-}
-
-.footer-right {
-  text-align: right;
-}
-
-.footer-right p {
-  margin-top: 10px;
-  color: green;
-}
 
 /* Dodajemo stilove za modal */
 .modal {
