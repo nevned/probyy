@@ -1,11 +1,18 @@
 .cart-container {
-  background-color: plum;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  text-align: center;
+    margin-top: 50px;
+    padding-left: 20%; /* Levo padding 20% širine stranice */
+  padding-right: 20%;
+    /*background-image:  url('../slike/Pocetna.jpg'); */
+    background-size: cover;
+    background-position: center center;
+    height: 1024px;
+    width: 1850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #15052F;
+    background-color: plum;
 }
 
-.kurs-container {
-  margin-top: 20px;
-}

@@ -6,6 +6,9 @@
   align-items: center;
 }
 
+.section1 {
+  margin-bottom: 20px;
+}
 .section {
   margin-bottom: 20px;
 }
@@ -14,4 +17,20 @@
   background-color: lightgreen;
   padding: 10px;
   margin-top: 10px;
+}
+.imageplaneta img {
+  max-width: 50%; /* Maksimalna širina slike je 100% širine image-side */
+  height: auto; /* Automatska visina slike */
+  display: block;
+  border-radius: 8px; /* Opciono: zaobljeni uglovi slike */
+  max-height: 300px; /* Maksimalna visina slike */
+}
+.text-above-image {
+  margin-bottom: 20px; /* Razmak ispod teksta iznad slike */
+}
+.section-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
 }
