@@ -1,0 +1,11 @@
+.cart-container {
+  background-color: plum;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kurs-container {
+  margin-top: 20px;
+}
