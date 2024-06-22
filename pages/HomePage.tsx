@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
     <div className="home-container1">
       <div className="split-container">
         <div className="text-side">
-          <h2 className="main-paragraph">LEARN THE SKILLS TO MAKE TOMORROW BETTER</h2>
+          <h3 className="main-paragraph">LEARN THE SKILLS TO MAKE TOMORROW BETTER</h3>
           <p className="main-paragraph">Dobrodošli na našu platformu za
           e-učenje, vašeg idealnog partnera u obrazovanju i profesionalnom razvoju! Vaša budućnost počinje ovde.</p>
         </div>
@@ -32,9 +32,9 @@ const HomePage: React.FC = () => {
           <img src="../slike/covek.png" alt="Druga slika" />
         </div>
         <div className="text-side1">
-          <p className="main-paragraph">Naš cilj je da vam pružimo alate i resurse koji će vam pomoći da uspostavite i održavate kvalitetnu komunikaciju sa vašim predavačima. Verujemo da je dobra komunikacija temelj uspešnog obrazovanja i želimo vam puno uspeha u vašem akademskom putu!</p>
-          <p className="main-paragraph">Praćenje napretka nije samo evaluacija vaših postignuća, već i prilika da se kontinuirano usavršavate i prilagodite svoj pristup učenju.</p>
-          <p className="main-paragraph">Sa 24/7 online pristupom alatima za upravljanje vremenom, imate fleksibilnost i kontrolu da organizujete svoje obaveze na način koji najbolje odgovara vašem stilu rada i životu.</p>
+          <p className="main-paragraph2">Naš cilj je da vam pružimo alate i resurse koji će vam pomoći da uspostavite i održavate kvalitetnu komunikaciju sa vašim predavačima. Verujemo da je dobra komunikacija temelj uspešnog obrazovanja i želimo vam puno uspeha u vašem akademskom putu!</p>
+          <p className="main-paragraph2">Praćenje napretka nije samo evaluacija vaših postignuća, već i prilika da se kontinuirano usavršavate i prilagodite svoj pristup učenju.</p>
+          <p className="main-paragraph2">Sa 24/7 online pristupom alatima za upravljanje vremenom, imate fleksibilnost i kontrolu da organizujete svoje obaveze na način koji najbolje odgovara vašem stilu rada i životu.</p>
         </div>
       </div>
 

@@ -1,18 +1,31 @@
 .gallery-container {
-  background-color: plum;
-  padding: 20px;
+  max-width: 1920px; /* Određena maksimalna širina */
+  width: 100%;
+  margin: 0; 
+  background-image: url(../slike/Pocetna.jpg);
+  background-size: 100%; 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .section1 {
-  margin-bottom: 20px;
+  padding-top: 12%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #15052F;
 }
 .section {
-  margin-bottom: 20px;
+  align-items: center;
+  width: 100%;
+  color: #15052F;
 }
-
+.galerijaTekst {
+  color: #15052F;
+  justify-content: center;
+  width: 100%;
+}
 .obavestenje {
   background-color: lightgreen;
   padding: 10px;

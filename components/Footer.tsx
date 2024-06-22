@@ -34,12 +34,13 @@ const Footer: React.FC = () => {
       <div className="footer-center">
         <p>Pratite nas na društvenim mrežama:</p>
         {/* Ovdje dodaj ikone društvenih mreža */}
-      </div>
-      <div className="social-icons">
+        <div className="social-icons">
           <img src="../slike/drustvenemreze.png" alt="Social Icon 1" />
       
           {/* Dodajte slike i alt tekstove za svoje ikonice */}
         </div>
+      </div>
+    
       <div className="footer-right">
         <p>Prijavite se na naš newsletter:</p>
         <input

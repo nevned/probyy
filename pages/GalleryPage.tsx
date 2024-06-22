@@ -20,7 +20,7 @@ const GalleryPage: React.FC = () => {
   return (
     <div className="gallery-container">
       <div className="section1">
-        <h1>Galerija kurseva</h1>
+        <h1>KURSEVI</h1>
         <p>Postani deo zajednice.</p>
       </div>
 
@@ -37,7 +37,7 @@ const GalleryPage: React.FC = () => {
 
       <div className="content-wrapper">
         <div className="text-above-image">
-          <p>Ovde možete pogledati još naših kurseva koji će uskoro biti dostupni!</p>
+          <p className="galerijaTekst">Ovde možete pogledati još naših kurseva koji će uskoro biti dostupni!</p>
         </div>
         <div className="section-right">
           <img src="../slike/kursevii.png" alt="Gallery Image" className="gallery-image" />

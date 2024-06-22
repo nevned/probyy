@@ -14,24 +14,28 @@ const ContactPage: React.FC = () => {
 
   return (
     <div className="contact-container">
-    <div>
+    
       <h1>Kontaktirajte nas</h1>
       <p className="main-paragraph">Hvala što ste posetili našu stranicu! 
-Tu smo da vam pomognemo sa svim pitanjima i nedoumicama u vezi sa našim kursevima.</p>
+        Tu smo da vam pomognemo sa svim pitanjima i nedoumicama u vezi sa našim kursevima.</p>
+
+        <div className="split">
+          <div className="forma">
       <InputField label="Name" type="text" value={name} onChange={(e) => setName(e.target.value)} />
       <InputField label="Email" type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
       <InputField label="Message" type="text" value={message} onChange={(e) => setMessage(e.target.value)} />
-      
-      
-
-        <div className="image-sidee">
-          <img src="../slike/kontaktslika.png" alt="Slika1" />
-        </div>
-
-    </div>
-    <div className="button-container"> 
+      <div className="button-container"> 
       <Button text="Posalji" onClick={handleSubmit}/>
     </div>
+      </div>
+
+        <div className="image-side">
+          <img src="../slike/kontaktslika.png" alt="Slika1" />
+        </div>
+        </div>
+
+    
+    
     </div>
   );
 };

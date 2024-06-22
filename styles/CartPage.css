@@ -1,8 +1,6 @@
 .cart-container {
   text-align: center;
-    margin-top: 50px;
-    padding-left: 20%; /* Levo padding 20% širine stranice */
-  padding-right: 20%;
+   
     /*background-image:  url('../slike/Pocetna.jpg'); */
     background-size: cover;
     background-position: center center;
