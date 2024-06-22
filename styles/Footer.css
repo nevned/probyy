@@ -1,0 +1,27 @@
+.footer {
+  background-color: rgba(138, 43, 226, 0.5);;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.center-section {
+  flex: 1;
+  text-align: center;
+}
+
+.right-section {
+  flex: 1;
+  text-align: right;
+}
+
+.social-icons img {
+  width: 120px;
+  margin: 0 5px;
+}

@@ -6,7 +6,7 @@ import ContactPage from '../pages/ContactPage';
 import CartPage from '../pages/CartPage';
 import NavMenu from '../components/NavMenu';
 import {KursProvider}  from '../components/KursContext';
-
+import Footer from '../components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +19,7 @@ const App: React.FC = () => {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/cart" element={<CartPage />} />
         </Routes>
+        <Footer />
       </KursProvider>
     </Router>
   );
