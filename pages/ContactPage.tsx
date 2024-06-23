@@ -10,6 +10,10 @@ const ContactPage: React.FC = () => {
 
   const handleSubmit = () => {
     console.log('Form submitted', { name, email, message });
+    // Resetuj stanja na početne vrednosti
+    setName('');
+    setEmail('');
+    setMessage('');
   };
 
   return (
@@ -30,7 +34,9 @@ const ContactPage: React.FC = () => {
       </div>
 
         <div className="image-side">
-          <img src="../slike/kontaktslika.png" alt="Slika1" />
+          <a href="https://www.google.com/maps/place/Fon/@44.7726817,20.4752233,15z/data=!4m6!3m5!1s0x475a70576248bf79:0xadaf5cff042d3bd0!8m2!3d44.7726817!4d20.4752233!16s%2Fg%2F12mkyk8h5?entry=ttu" target="_blank" rel="noopener noreferrer">
+            <img src="../slike/kontaktslika.png" alt="Slika1" />
+          </a>
         </div>
         </div>
 
