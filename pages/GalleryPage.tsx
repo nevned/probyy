@@ -17,16 +17,16 @@ const GalleryPage: React.FC = () => {
       navigate('/cart'); // Preusmeravanje na CartPage samo ako je kurs kupljen
     }
   };
-  return (
-    <div className="gallery-container">
-      <div className="section1">
+
+  /*
+  
+  <div className="section1">
         <h1>KURSEVI</h1>
         <p>Postani deo zajednice.</p>
+        
       </div>
 
-      <div className="section">
-        <Kurs naziv="1.JavaScript: Dinamicne Web Stranice" onKupi={handleKupiKurs} />
-      </div>
+     
 
       {kursKupljen && (
         <div className="obavestenje">
@@ -42,6 +42,40 @@ const GalleryPage: React.FC = () => {
         <div className="section-right">
           <img src="../slike/kursevii.png" alt="Gallery Image" className="gallery-image" />
         </div>
+      </div>
+  
+  
+  */
+  return (
+    <div className="gallery-container">
+      <div className="pozadina">
+      <div className="welcomeTekst">
+        <h1>KURSEVI</h1>
+        
+        <p className="paragraf1">
+         postani deo zajednice 
+        </p>
+
+        <div className="sekcija1">
+        <Kurs cena={30} naziv="1.JavaScript: Dinamicne Web Stranice" opis="Naučite osnove JavaScript-a i kako da kreirate interaktivne veb stranice "onKupi={handleKupiKurs} />
+        <Kurs cena={20} naziv="2.Osnove SQL-a za Početnike" opis="Savladajte osnove SQL-a i naučite kako da kreirate, pretražujete i upravljate bazama podataka kroz praktične primere i vežbe."onKupi={handleKupiKurs} />
+        <Kurs cena={40}naziv="3.Docker Domen" opis="Kurs obuhvata osnovne koncepte Docker arhitektura, rad sa Docker slikama i kontejnerima, kao i napredne tehnike poput orkestracije sa Docker Compose i Kubernetesom."onKupi={handleKupiKurs} />
+
+      </div>
+
+      <div className="content-wrapper">
+        <div className="text-above-image">
+          <p className="galerijaTekst">Ovde možete pogledati još naših kurseva koji će uskoro biti dostupni!</p>
+        </div>
+        <div className="section-right">
+          <img src="../slike/kursevii.png" alt="Gallery Image" className="gallery-image" />
+        </div>
+      </div>
+      
+      </div>
+      
+      
+
       </div>
     </div>
   );

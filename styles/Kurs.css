@@ -1,15 +1,44 @@
 .kurs {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 100%;
     line-height: 1.6;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 13px;
+    align-items: center;
+     justify-content: center;
 }
 p {
     size: 10px;
     margin: 20px auto;
     text-align: justify;
     
+}
+h2 {
+    color: #15052F;
+    font-size: 20px;
+}
+.opisKursa{
+    font-size: 5px;
+    width: 80%;
+    color: #15052F;
+    align-items: center;
+}
+
+.sekcija2{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.slikaKursa{
+    width: 200px;
+    contain: content;
+}
+
+h3{
+    color: #15052F;
 }

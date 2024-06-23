@@ -8,10 +8,20 @@ const CartPage: React.FC = () => {
 
  return (
     <div className="cart-container">
-      <h1>Korpa</h1>
+      <h1>VAŠA KORPA</h1>
       {kursKupljen ? (
         <div className="kurs-container">
-          <Kurs naziv="1. JavaScript: Dinamične Web Stranice" />
+
+          <div className="pregledKurseva">
+
+          <Kurs cena={30} naziv="1. JavaScript: Dinamične Web Stranice" opis="Naučite osnove JavaScript-a i kako da kreirate interaktivne veb stranice kroz praktične primere i vežbe. kroz praktične primere i vežbe."/>
+
+          </div>
+          <div className="pregledNarudzbine">
+
+            
+          </div>
+          
         </div>
       ) : (
         <p>Nema dodatih kurseva u korpi.</p>

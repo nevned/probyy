@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
     <div className="home-container1">
       <div className="split-container">
         <div className="text-side">
-          <h2 className="main-paragraph"><b>LEARN THE SKILLS TO MAKE TOMORROW BETTER</b></h2>
+          <p className="learn"><b>LEARN THE SKILLS TO MAKE TOMORROW BETTER</b></p>
           <p className="main-paragraph">Dobrodošli na našu platformu za
           e-učenje, vašeg idealnog partnera u obrazovanju i profesionalnom razvoju! Vaša budućnost počinje ovde.</p>
         </div>

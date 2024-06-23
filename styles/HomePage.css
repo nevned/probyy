@@ -26,9 +26,15 @@
     cursor: pointer;
     font-size: 16px;
   }
-  
+  .learn {
+    padding-top: 60px;
+    color :#15052F;
+    
+  }
   .gallery-button:hover {
-    background-color: #0056b3;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #15052F;
+    transform: 500ms;
   }
 
   .split-container {
@@ -90,6 +96,7 @@
     text-align: left; /* Tekst je poravnat levo unutar text-side */
     font-size: 30px; /* Veličina fonta 70px */
     padding-right: 10%;
+    color: #15052F;
   }
   
   .image-side1 {

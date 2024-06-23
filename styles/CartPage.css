@@ -1,16 +1,17 @@
 .cart-container {
-  text-align: center;
-   
-    /*background-image:  url('../slike/Pocetna.jpg'); */
-    background-size: cover;
-    background-position: center center;
-    height: 1024px;
-    width: 1850px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #15052F;
-    background-color: plum;
+  width: 100vw;
+  font-family: 'JetBrains Mono', monospace;
+  background-color: plum;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.kurs-container{
+
+  width: 1000px;
 }
 
