@@ -36,19 +36,20 @@ const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <p>Adresa kompanije: Jove Ilica 154, Beograd, 11000, Srbija</p>
+        <p>Adresa kompanije: Jove Ilica 154, Beograd</p>
         <p>Telefon: +123 456 7890 | Email: info@edusfera.com</p>
       </div>
       <div className="footer-center">
         <p>Pratite nas na društvenim mrežama:</p>
         {/* Ovdje dodaj ikone društvenih mreža */}
-      </div>
-      <div className="social-icons">
+        <div className="social-icons">
           <a href="https://sr.wikipedia.org/sr-ec/Java_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%81%D0%BA%D0%B8_%D1%98%D0%B5%D0%B7%D0%B8%D0%BA)" target="_blank" rel="noopener noreferrer">
             <img src="../slike/drustvenemreze.png" alt="Social Icon 1" />
           </a>
           {/* Dodajte slike i alt tekstove za svoje ikonice */}
         </div>
+      </div>
+     
       <div className="footer-right">
         <p>Prijavite se na naš newsletter:</p>
         <input

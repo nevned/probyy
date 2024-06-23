@@ -1,5 +1,6 @@
 .image-sidee{
-    
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -11,7 +12,7 @@
   max-width: 100%;
   width: 1457px;
   background-color: rgb(190, 224, 250);
-    
+  font-family: 'JetBrains Mono', monospace;
   }
   
   @media (min-width: 1024px) {
@@ -25,14 +26,17 @@
   .input-field {
    
   width: 400px; /* Postavljanje širine input polja */
-  margin: 20px; /* Razmak između input polja */
+   /* Razmak između input polja */
   padding: 0; /* Unutrašnji razmak unutar input polja */
   font-size: 14px; /* Veličina teksta unutar input polja */
-  border-radius: 15px; /* Zaobljavanje uglova input polja */
+  border-radius: 100px; /* Zaobljavanje uglova input polja */
   color: #15052F;
   
 }
-
+.forma{
+  display: flex;
+  flex-direction: column;
+}
 .split {
   display: flex;
   flex-direction: row;
@@ -46,4 +50,25 @@
 h1 {
   padding-top: 5%;
   color: #15052F;
+}
+
+.dugmeKontakt{
+ 
+  padding-left: 30px;
+  background-color: #15052F;
+  color: white;
+  width: 400px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.info{
+  display: flex;
+  background-color: #15052F;
+}
+
+.info1{
+  background-color: #15052F;
 }

@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
     <div className="home-container1">
       <div className="split-container">
         <div className="text-side">
-          <h3 className="main-paragraph">LEARN THE SKILLS TO MAKE TOMORROW BETTER</h3>
+          <h2 className="main-paragraph"><b>LEARN THE SKILLS TO MAKE TOMORROW BETTER</b></h2>
           <p className="main-paragraph">Dobrodošli na našu platformu za
           e-učenje, vašeg idealnog partnera u obrazovanju i profesionalnom razvoju! Vaša budućnost počinje ovde.</p>
         </div>
@@ -30,7 +30,7 @@ const HomePage: React.FC = () => {
     <div className="split-container2">
         <div className="image-side1">
           <img src="../slike/covek.png" alt="Druga slika" />
-        </div>
+        </div> 
         <div className="text-side1">
           <p className="main-paragraph2">Naš cilj je da vam pružimo alate i resurse koji će vam pomoći da uspostavite i održavate kvalitetnu komunikaciju sa vašim predavačima. Verujemo da je dobra komunikacija temelj uspešnog obrazovanja i želimo vam puno uspeha u vašem akademskom putu!</p>
           <p className="main-paragraph2">Praćenje napretka nije samo evaluacija vaših postignuća, već i prilika da se kontinuirano usavršavate i prilagodite svoj pristup učenju.</p>

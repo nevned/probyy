@@ -9,10 +9,10 @@ const NavMenu: React.FC = () => {
         <img src="../slike/leftside.png" alt="Logo" />
       </div>
       <ul className="menu">
-        <li><Link to="/">Početna</Link></li>
-        <li><Link to="/gallery">Kursevi</Link></li>
-        <li><Link to="/contact">Kontakt</Link></li>
-        <li><Link to="/cart">Korpa</Link></li>
+        <li><Link to="/">POČETNA</Link></li>
+        <li><Link to="/gallery">KURSEVI</Link></li>
+        <li><Link to="/contact">KONTAKT</Link></li>
+        <li><Link to="/cart">KORPA</Link></li>
       </ul>
     </nav>
   );
