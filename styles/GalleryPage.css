@@ -6,6 +6,10 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  background-image: url(../slike/uslovi1.png);
+  background-size: 100vw;
+  min-height: 100vh;
+
 }
 
 .welcomeTekst {
@@ -19,6 +23,7 @@
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   gap: 10%;
+  margin-bottom: 50px;
 }
 
 .paragraf1 {
@@ -62,14 +67,14 @@ h1 {
   margin-top: 10px;
 }
 .imageplaneta img {
-  max-width: 50%; /* Maksimalna širina slike je 100% širine image-side */
-  height: auto; /* Automatska visina slike */
+  max-width: 50%; 
+  height: auto; 
   display: block;
-  border-radius: 8px; /* Opciono: zaobljeni uglovi slike */
-  max-height: 300px; /* Maksimalna visina slike */
+  border-radius: 8px; 
+  max-height: 300px; 
 }
 .text-above-image {
-  margin-bottom: 20px; /* Razmak ispod teksta iznad slike */
+  margin-bottom: 20px;
 }
 .section-right {
   flex: 1;

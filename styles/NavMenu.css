@@ -2,8 +2,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(138, 43, 226, 0.1); /* Ljubičasta boja sa 50% prozirnosti */
-  padding: 30px; /* Dodavanje paddinga sa obe strane od 30px */
+  background-color: rgba(138, 43, 226, 0.1); 
+  padding: 30px; 
   position: fixed;
  
   width: 100%;
@@ -13,19 +13,18 @@ nav {
 }
 
 .logo img {
-  height: 40px; /* Visina logo slike */
+  height: 40px; 
 }
 
 .menu {
   list-style-type: none;
   
   padding-left: 20%;
-  margin: 10; /* Uklanjanje margina za bolju centriranost */
+  margin: 10; 
   display: flex;
-  gap: 10px; /* Razmak između linkova */
-  /* Poravnanje elemenata na desnoj strani */
-  align-items: center; /* Vertikalno centriranje stavki */
-  /* Rastezanje menija kako bi iskoristio slobodan prostor */
+  gap: 10px; 
+  align-items: center; 
+
 }
 
 .menu li {
@@ -34,15 +33,14 @@ nav {
 
 .menu li a {
   text-decoration: none;
-  color: rgb(0, 0, 0); /* Boja teksta */
-  padding: 10px 15px; /* Razmak unutar linkova */
-  font-size: 16px; /* Veličina fonta */
+  color: rgb(0, 0, 0); 
+  padding: 10px 15px; 
+  font-size: 16px; 
   font-family: 'JetBrains Mono', monospace;
 }
 
 .menu li a:hover {
-   /* Tamnija ljubičasta boja za hover efekt */
   color: white;
   transition: 300ms;
-  border-radius: 4px; /* Zaobljeni uglovi */
+  border-radius: 4px; 
 }

@@ -2,22 +2,20 @@
     width: 300px;
     height: 300px;
 }
-
-
 .contact-container {
    display: flex;
   flex-direction: column;
-  align-items: center; /* Centriranje elemenata */
+  align-items: center; 
   justify-content: center;
   max-width: 100%;
-  width: 1457px;
+  width: 100vw;
   background-color: rgb(190, 224, 250);
   font-family: 'JetBrains Mono', monospace;
   }
   
   @media (min-width: 1024px) {
     .contact-container {
-      padding:  30px; /* Povećajte padding na širem ekranu */
+      padding:  30px; 
     }
   }
   .input-container {
@@ -25,11 +23,10 @@
 }
   .input-field {
    
-  width: 400px; /* Postavljanje širine input polja */
-   /* Razmak između input polja */
-  padding: 0; /* Unutrašnji razmak unutar input polja */
-  font-size: 14px; /* Veličina teksta unutar input polja */
-  border-radius: 100px; /* Zaobljavanje uglova input polja */
+  width: 400px;
+  padding: 0; 
+  font-size: 14px; 
+  border-radius: 100px; 
   color: #15052F;
   
 }
@@ -44,7 +41,7 @@
 
 @media (min-width: 1024px) {
   .split {
-    gap: 20%; /* Povećajte padding na širem ekranu */
+    gap: 20%; 
   }
 }
 h1 {

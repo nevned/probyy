@@ -11,10 +11,10 @@ const GalleryPage: React.FC = () => {
   const [pagesArray, setPagesArray] = useState<number[]>([]);
   const [kursevi, setKursevi] = useState<KursI[]>([]);
   console.log(kursKupljen);
-  //  const navigate = useNavigate();
+
 
   const handleKupiKurs = () => {
-    setKursKupljen(true); // Postavlja stanje kupljenosti kursa na true
+    setKursKupljen(true); 
   };
 
   useEffect(() => {
@@ -113,38 +113,3 @@ const GalleryPage: React.FC = () => {
 
 export default GalleryPage;
 
-/*
- const handleDodajUKorpu = () => {
-    if (kursKupljen) {
-      navigate('/cart'); // Preusmeravanje na CartPage samo ako je kurs kupljen
-    }
-  };*/
-
-/*
-  
-  <div className="section1">
-        <h1>KURSEVI</h1>
-        <p>Postani deo zajednice.</p>
-        
-      </div>
-
-     
-
-      {kursKupljen && (
-        <div className="obavestenje">
-          <p>Da li zelite da dodate kurs u korpu?</p>
-         <button onClick={handleDodajUKorpu}>Dodaj u korpu</button>
-        </div>
-      )}
-
-      <div className="content-wrapper">
-        <div className="text-above-image">
-          <p className="galerijaTekst">Ovde možete pogledati još naših kurseva koji će uskoro biti dostupni!</p>
-        </div>
-        <div className="section-right">
-          <img src="../slike/kursevii.png" alt="Gallery Image" className="gallery-image" />
-        </div>
-      </div>
-  
-  
-  */

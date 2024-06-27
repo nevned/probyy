@@ -9,15 +9,12 @@
   justify-content: center;
   flex-direction: column;
 }
-
-
 .kurs-container{
   display: flex;
   flex-direction: row;
   width: 1000px;
   gap: 10%;
-}
- 
+} 
 .pregledKurseva{
   width: 60%;
   border-color: aliceblue;
@@ -45,7 +42,6 @@ h4{
   gap: 80%;
 }
 
-
 .ukupno{
   display: flex;
   flex-direction: row;
@@ -53,7 +49,6 @@ h4{
   gap: 70%;
   background-color: rgba(255, 255, 255, 0.7);
 }
-
 .checkout-btn{
   width: 100%;
   background-color: green;
