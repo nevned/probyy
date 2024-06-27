@@ -1,0 +1,94 @@
+.usloviKoriscenja{
+    width: 100vw;
+    font-family: 'JetBrains Mono', monospace;
+    background-image: url(../slike/uslovi1.png);
+    background-size: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20%;
+}
+.politikaPrivatnosti{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+    padding-top: 10%;
+}
+.politikaPrivatnostiSekcija{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+
+.uslovi2SLIKA{
+    width: 400px;
+}
+.politikaNaslov{
+    font-size: 80px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    font-weight: bolder;
+}
+.politikaPrivatnostiNaslovi{
+    display: grid;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    
+    justify-content: start;
+    max-height: 200px;
+    
+    
+}
+.ppSekcija{
+    display: flex;
+    flex-direction: column;
+}
+.politikaPrivatnostiTekstovi{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+}
+.nasloviPolitika{
+    font-size: 18px;
+    font-weight: bold;
+}
+.nasloviPolitika:hover{
+    color: white;
+    transition: 300ms;
+    cursor: pointer;
+}
+.naslovPolitika{
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+.usloviKoriscenjaSekcija{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 70%;
+}
+.usloviKoriscenjaNaslovi{
+    display: grid;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    
+    justify-content: start;
+    max-height: 200px;
+}
+
+.nasloviKoriscenje{
+    font-size: 18px;
+    font-weight: bold;
+}

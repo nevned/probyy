@@ -25,7 +25,7 @@
 
 }
 
-/* Dodajemo stilove za modal */
+
 .modal {
   position: fixed;
   top: 0;
@@ -48,4 +48,19 @@
 .social-icons img {
   width: 120px;
   margin: 0 5px;
+}
+.footer-terms {
+  margin-top: 20px;
+ 
+}
+
+.footer-terms a {
+  color: white; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-terms a:hover {
+  text-decoration: underline;
+  color: #e4a9e0;
 }

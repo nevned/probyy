@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Newsletter from '../models/Newsletter';
 import '../styles/Footer.css';
+import { Link } from 'react-router-dom';
+import '../styles/TermsPage.css';
 
 const newsletter = new Newsletter();
 
@@ -38,6 +40,9 @@ const Footer: React.FC = () => {
       <div className="footer-left">
         <p>Adresa kompanije: Jove Ilica 154, Beograd</p>
         <p>Telefon: +123 456 7890 | Email: info@edusfera.com</p>
+        <div className="footer-terms">
+        <Link to="/uslovi-koriscenja">Politika Privatnosti</Link>
+      </div>
       </div>
       <div className="footer-center">
         <p>Pratite nas na društvenim mrežama:</p>
