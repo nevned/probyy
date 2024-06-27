@@ -50,7 +50,7 @@ const GalleryPage: React.FC = () => {
 
   return (
     <div className='gallery-container'>
-      <div className='pozadina'>
+      
         <div className='welcomeTekst'>
           <h1>KURSEVI</h1>
 
@@ -107,7 +107,7 @@ const GalleryPage: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 };
 

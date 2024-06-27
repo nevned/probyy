@@ -1,0 +1,154 @@
+.kontejner55{
+    width: 100vw;
+    font-family: 'JetBrains Mono', monospace;
+    background-image: url(../slike/onamaPozadina.png);
+    background-size: 100vw;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heroSekcija{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    font-weight: bolder;
+    margin-top: 10%;
+    
+}
+.dobrodosli{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 50px;
+   
+}
+.dobrodosli-levo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.dobrodosliTekst1{
+    font-size: 30px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    font-weight: bold;
+}
+.dobrodosliTekst2{
+    font-size: 15px;
+    width: 80%;
+}
+
+.heroTekst1{
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bolder;
+}
+
+.heroTekst12,heroTekst11{
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bolder;
+}
+
+.heroTekst2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+.heroTekst21{
+    font-size: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sekcija2A{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    gap: 10px;
+}
+.sekcija21{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    height: 600px;
+}
+.onamaslika2{
+    width: 20%;
+}
+.sekcija21tekst{
+    width: 50%;
+    font-size: 15px;
+}
+
+.sekcija22{
+    width: 50%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.sekcija22tekst{
+    width: 50%;
+    font-size: 15px;
+    height: 100%;
+    flex: 1;
+}
+.onama3div{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.onamaslika2{
+    width: 300px;
+}
+.onamaslika3{
+    width: 450px;
+}
+
+.sekcija3{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'JetBrains Mono', monospace;
+    color: #15052f;
+    margin-bottom: 20px;
+}
+.sekcija3tekst{
+    font-size: 20px;
+}

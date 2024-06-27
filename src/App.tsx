@@ -8,6 +8,7 @@ import NavMenu from '../components/NavMenu';
 import { KursProvider } from '../components/KursContext';
 import Footer from '../components/Footer';
 import TestComponent from '../components/TestComponent';
+import AboutPage from '../pages/AboutPage';
 
 const App: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route path='/gallery' element={<GalleryPage />} />
           <Route path='/contact' element={<ContactPage />} />
           <Route path='/cart' element={<CartPage />} />
+          <Route path="/about" element={<AboutPage />} />
         </Routes>
         <Footer />
       </KursProvider>
