@@ -11,6 +11,7 @@ import TestComponent from '../components/TestComponent';
 import AboutPage from '../pages/AboutPage';
 import TermsPage from '../pages/TermsPage';
 import LoginPage from '../pages/LoginPage';
+import ProfilePage from '../pages/ProfilePage';
 
 
 const App: React.FC = () => {
@@ -26,6 +27,9 @@ const App: React.FC = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/uslovi-koriscenja" element={<TermsPage />} />
           <Route path='/login' element={<LoginPage />} />
+         <Route path='/' element={<LoginPage />} />
+         <Route path='/profile' element={<ProfilePage />} />
+      
         </Routes>
         <Footer />
       </KursProvider>

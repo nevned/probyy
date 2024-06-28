@@ -1,26 +1,45 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { LoginFormClass } from '../models/LoginForm';
-
-import '../styles/LoginPage.css';
+import ProfilePage from '../pages/ProfilePage';
 
 const LoginPage: React.FC = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const [loggedIn, setLoggedIn] = useState(false); // State to track logged in status
   const navigate = useNavigate();
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    var forma = new LoginFormClass(username, password);
-    const poruka = forma.login();
-    alert(poruka);
+    // Simulate login logic with LoginFormClass
+    var form = new LoginFormClass(username, password);
+    const message = form.login();
+    alert(message);
 
-    if (poruka == 'Uspešno ste se ulogovali!') {
-      navigate('/');
+    if (message === 'Uspešno ste se ulogovali!') {
+      localStorage.setItem('loggedInUser', JSON.stringify({ username }));
+      setLoggedIn(true); // Set loggedIn state to true
+      navigate('/'); // Redirect to home or profile page after successful login
     }
   };
 
+  // Check if user is logged in on component mount
+  useEffect(() => {
+    const loggedInUserString = localStorage.getItem('loggedInUser');
+    if (loggedInUserString) {
+      const loggedInUser = JSON.parse(loggedInUserString);
+      setUsername(loggedInUser.username);
+      setLoggedIn(true);
+    }
+  }, []); // Empty dependency array ensures this runs only once on mount
+
+  // Render conditionally based on loggedIn state
+  if (loggedIn) {
+    return <ProfilePage username={username} />;
+  }
+
+  // Render login form if not logged in
   return (
     <div className='login'>
       <h2>Dobrodošli!</h2>
@@ -29,7 +48,7 @@ const LoginPage: React.FC = () => {
           type='text'
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder='Korisičko ime'
+          placeholder='Korisničko ime'
         />
         <input
           type='password'
