@@ -4,7 +4,7 @@ import axios from 'axios';
 const WeatherComponent: React.FC = () => {
   const [weatherData, setWeatherData] = useState<any>(null);
   const [city, setCity] = useState<string>('Belgrade');
-  const apiKey = 'd0b5eddc05063bea6d8004d8654e59b1'; // Zamijenite sa svojim API ključem
+  const apiKey = 'd0b5eddc05063bea6d8004d8654e59b1'; 
 
   useEffect(() => {
     const fetchWeather = async () => {

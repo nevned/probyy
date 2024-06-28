@@ -3,11 +3,40 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(138, 43, 226, 0.1);
+  background-image: url(../slike/login.png);
+  background-size: 100vw;
   height: 80vh;
   width: 100vw;
 }
-
+.glavniDivLogin{
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.levaStrana{
+  width: 50%;
+}
+.loginLogo{
+  width: 50%;
+}
+.desnaStranaLogin{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'JetBrains Mono', monospace;
+  color: #15052f;
+  font-weight: bolder;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.prijaviSe{
+  font-size: 30px;
+}
 .login h2 {
   font-size: 2rem;
 }
