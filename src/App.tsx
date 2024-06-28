@@ -13,7 +13,7 @@ import TermsPage from '../pages/TermsPage';
 import LoginPage from '../pages/LoginPage';
 import ProfilePage from '../pages/ProfilePage';
 import OpenWeatherMap from '../components/OpenWeatherMap'
-
+import Bitcoin from '../components/Bitcoin'
 const App: React.FC = () => {
   const username = 'ExampleUser';
   return (
@@ -28,6 +28,7 @@ const App: React.FC = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/uslovi-koriscenja" element={<TermsPage />} />
           <Route path="/uslovi-koriscenja2" element={<OpenWeatherMap />} />
+          <Route path="/uslovi-koriscenja3" element={<Bitcoin />} />
         <Route path='/login' element={<LoginPage />} />
          <Route path='/profile' element={<ProfilePage username={username} />} />
         {/* Other routes */}

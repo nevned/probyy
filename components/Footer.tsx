@@ -46,6 +46,7 @@ const Footer: React.FC = () => {
       </div>
       <div className="footer-vreme">
         <Link to="/uslovi-koriscenja2">Proverite vreme</Link>
+        <Link to="/uslovi-koriscenja3">|Bitcoin</Link>
       </div>
       </div>
       <div className="footer-center">

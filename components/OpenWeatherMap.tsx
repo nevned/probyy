@@ -21,6 +21,7 @@ const WeatherComponent: React.FC = () => {
     fetchWeather();
   }, [city, apiKey]);
 
+ 
   return (
     <div className='weather-container'>
       <h2>Vremenska Prognoza za {city}</h2>
@@ -36,6 +37,7 @@ const WeatherComponent: React.FC = () => {
       <button onClick={() => setCity('New York')}>
         {city === 'Belgrade' ? 'Prikaži vreme za New York' : 'Promeni grad'}
       </button>
+    
     </div>
   );
 };
