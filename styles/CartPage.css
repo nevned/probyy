@@ -53,3 +53,12 @@ h4{
   width: 100%;
   background-color: green;
 }
+ @media (max-width: 768px) {
+  .cart-container {
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -148,3 +148,13 @@ h1 {
 .paginacija-item.aktivno {
   background-color: white;
 }
+
+ @media (max-width: 768px) {
+  .gallery-container {
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}

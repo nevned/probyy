@@ -1,0 +1,33 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(138, 43, 226, 0.1);
+  height: 80vh;
+  width: 100vw;
+}
+
+.login h2 {
+  font-size: 2rem;
+}
+
+.login form {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.login form input {
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+ @media (max-width: 768px) {
+  .login {
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}

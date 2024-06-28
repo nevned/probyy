@@ -64,3 +64,12 @@
   text-decoration: underline;
   color: #e4a9e0;
 }
+ @media (max-width: 768px) {
+  .footer {
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -140,3 +140,13 @@
       gap: 5%; 
     }
   }
+
+  @media (max-width: 768px) {
+  .home-container1 {
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -10,6 +10,8 @@ import Footer from '../components/Footer';
 import TestComponent from '../components/TestComponent';
 import AboutPage from '../pages/AboutPage';
 import TermsPage from '../pages/TermsPage';
+import LoginPage from '../pages/LoginPage';
+
 
 const App: React.FC = () => {
   return (
@@ -23,6 +25,7 @@ const App: React.FC = () => {
           <Route path='/cart' element={<CartPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/uslovi-koriscenja" element={<TermsPage />} />
+          <Route path='/login' element={<LoginPage />} />
         </Routes>
         <Footer />
       </KursProvider>

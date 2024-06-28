@@ -14,6 +14,7 @@ const NavMenu: React.FC = () => {
         <li><Link to="/about">O NAMA</Link></li>
         <li><Link to="/contact">KONTAKT</Link></li>
         <li><Link to="/cart">KORPA</Link></li>
+        <li><Link to="/login">LOGIN</Link></li>
       </ul>
     </nav>
   );

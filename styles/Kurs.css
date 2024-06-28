@@ -42,3 +42,12 @@ h2 {
 h3{
     color: #15052F;
 }
+ @media (max-width: 768px) {
+  .kurs {
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}

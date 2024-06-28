@@ -69,3 +69,12 @@ h1 {
 .info1{
   background-color: #15052F;
 }
+ @media (max-width: 768px) {
+  .contact-container {
+   
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
