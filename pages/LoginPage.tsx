@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { LoginFormClass } from '../models/LoginForm';
 import ProfilePage from '../pages/ProfilePage';
+import '../styles/LoginPage.css';
 
 const LoginPage: React.FC = () => {
   const [username, setUsername] = useState('');

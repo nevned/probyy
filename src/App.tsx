@@ -12,9 +12,10 @@ import AboutPage from '../pages/AboutPage';
 import TermsPage from '../pages/TermsPage';
 import LoginPage from '../pages/LoginPage';
 import ProfilePage from '../pages/ProfilePage';
-
+import OpenWeatherMap from '../components/OpenWeatherMap'
 
 const App: React.FC = () => {
+  const username = 'ExampleUser';
   return (
     <Router>
       <KursProvider>
@@ -26,9 +27,12 @@ const App: React.FC = () => {
           <Route path='/cart' element={<CartPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/uslovi-koriscenja" element={<TermsPage />} />
-          <Route path='/login' element={<LoginPage />} />
-         <Route path='/' element={<LoginPage />} />
-         <Route path='/profile' element={<ProfilePage />} />
+          <Route path="/uslovi-koriscenja2" element={<OpenWeatherMap />} />
+        <Route path='/login' element={<LoginPage />} />
+         <Route path='/profile' element={<ProfilePage username={username} />} />
+        {/* Other routes */}
+        {/* Other routes */}
+
       
         </Routes>
         <Footer />

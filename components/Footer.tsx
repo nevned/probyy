@@ -3,6 +3,7 @@ import Newsletter from '../models/Newsletter';
 import '../styles/Footer.css';
 import { Link } from 'react-router-dom';
 import '../styles/TermsPage.css';
+import '../styles/Weather.css';
 
 const newsletter = new Newsletter();
 
@@ -42,6 +43,9 @@ const Footer: React.FC = () => {
         <p>Telefon: +123 456 7890 | Email: info@edusfera.com</p>
         <div className="footer-terms">
         <Link to="/uslovi-koriscenja">Politika Privatnosti</Link>
+      </div>
+      <div className="footer-vreme">
+        <Link to="/uslovi-koriscenja2">Proverite vreme</Link>
       </div>
       </div>
       <div className="footer-center">
