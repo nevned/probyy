@@ -31,8 +31,8 @@ const App: React.FC = () => {
           <Route path="/uslovi-koriscenja3" element={<Bitcoin />} />
         <Route path='/login' element={<LoginPage />} />
          <Route path='/profile' element={<ProfilePage username={username} />} />
-        {/* Other routes */}
-        {/* Other routes */}
+        {/*  */}
+        {/**/}
 
       
         </Routes>
