@@ -7,62 +7,40 @@ const ContactPage: React.FC = () => {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
+  
+  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL;
+  const imageUrl = `${apiBaseUrl}/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80`;
+
   const handleSubmit = () => {
     console.log('Form submitted', { name, email, message });
-    
-    setName('');
-    setEmail('');
-    setMessage('');
+    setName(''); setEmail(''); setMessage('');
   };
-
-  
 
   return (
     <div className='contact-container'>
-      <h1>
-        <b>KONTAKTIRAJTE NAS</b>
-      </h1>
+      <h1><b>KONTAKTIRAJTE NAS</b></h1>
       <p className='main-paragraph'>
-        Hvala što ste posetili našu stranicu! Tu smo da vam pomognemo sa svim
-        pitanjima i nedoumicama u vezi sa našim kursevima.
+        Tu smo da vam pomognemo sa svim pitanjima u vezi sa našim kursevima.
       </p>
 
       <div className='split'>
         <div className='forma'>
-          <InputField
-            label='Name'
-            type='text'
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-          <InputField
-            label='Email'
-            type='email'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-          <InputField
-            label='Message'
-            type='text'
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          />
+          <InputField label='Name' type='text' value={name} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setName(e.target.value)} />
+          <InputField label='Email' type='email' value={email} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)} />
+          <InputField label='Message' type='text' value={message} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setMessage(e.target.value)} />
           <div className='button-container'>
-            <button onClick={handleSubmit} className='dugmeKontakt'>
-              Posalji
-            </button>
+            <button onClick={handleSubmit} className='dugmeKontakt'>Posalji</button>
           </div>
         </div>
+        
         <div className='info'>
           <div className='image-side'>
-            <a
-              href='https://www.google.com/maps/place/Fon/@44.7726817,20.4752233,15z/data=!4m6!3m5!1s0x475a70576248bf79:0xadaf5cff042d3bd0!8m2!3d44.7726817!4d20.4752233!16s%2Fg%2F12mkyk8h5?entry=ttu'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <img src='../slike/kontaktslika.png' alt='Slika1' />
-            </a>
-            
+            <img 
+              src={imageUrl} 
+              alt="IT Kurs Slika" 
+              className="gallery-image"
+              style={{ width: '100%', borderRadius: '8px', maxHeight: '350px', objectFit: 'cover' }}
+            />
           </div>
         </div>
       </div>
